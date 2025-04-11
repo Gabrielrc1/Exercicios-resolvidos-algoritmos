@@ -1,0 +1,1 @@
+Exercícios resolvidos de lógica de programação em portugol do curso em vídeo
