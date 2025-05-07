@@ -1,1 +1,1 @@
-Exercícios resolvidos de lógica de programação em portugol do curso em vídeo
+Este repositório contém resolução de exercícios feitos em portugol, aqui temos resoluções em duas ferramentas diferentes o visualg e portugol studio.

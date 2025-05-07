@@ -16,17 +16,20 @@ programa {
         media = (nota1 + nota2 + nota3) / 3
 
         se (media >= 6.0) {
+
             escreva("Aprovado!!")
             escreva("\nMédia: ", media)
-        }
-        senao se ((media >= 5) e (media < 6)) {
+        
+        } senao se ((media >= 5) e (media < 6)) {
+        
             escreva("Recuperação!!")
             escreva("\nMédia: ", media)
-        } 
-        senao {
+        
+        } senao {
             escreva("REPROVADO!!")
             escreva("\nMédia: ", media)
         }
+        
         
     }
 }
