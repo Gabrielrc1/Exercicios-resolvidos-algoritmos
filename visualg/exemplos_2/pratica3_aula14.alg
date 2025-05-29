@@ -13,31 +13,31 @@ inicio
         escreval("\n--------------------------------------------------------------------------------")
 
         repita 
-        escreva("Reservar poltrona: B")
-        leia(n)
+            escreva("Reservar poltrona: B")
+            leia(n)
 
-        se (poltrona[n] = 0) entao
-            poltrona[n] <- n
-            escreval("Poltrona reservada com sucesso!!")
-        senao
-            se (poltrona[n] = n) entao
-                escreval("ERRO: Lugar ocupado")
-            fimse
-        fimse
-        
-        escreval("Quer reservar outro? [S] sim      [N] não")
-        leia(resp)
-
-        limpatela
-
-        para cont <- 1 ate 10 faca
-            se (poltrona[cont] = cont) entao
-                escreva("[ --- ] ")
+            se (poltrona[n] = 0) entao
+                poltrona[n] <- n
+                escreval("Poltrona reservada com sucesso!!")
             senao
-                escreva("[ B ", cont," ] ")
+                se (poltrona[n] = n) entao
+                    escreval("ERRO: Lugar ocupado")
+                fimse
             fimse
-        fimpara
-        escreval("\n--------------------------------------------------------------------------------")
+            
+            escreval("Quer reservar outro? [S] sim      [N] não")
+            leia(resp)
+
+            limpatela
+
+            para cont <- 1 ate 10 faca
+                se (poltrona[cont] = cont) entao
+                    escreva("[ --- ] ")
+                senao
+                    escreva("[ B ", cont," ] ")
+                fimse
+            fimpara
+            escreval("\n--------------------------------------------------------------------------------")
 
         ate (resp = "n")
 fimalgoritmo

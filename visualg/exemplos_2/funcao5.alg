@@ -1,10 +1,10 @@
 algoritmo "FUNÇÕES PRONTAS"
 // Algumas funções na bibliotecas do visualg:
-// compr(nome_variavel)
-// copia(nome_variavel, 6, 2)
-// maiusc(nome_variavel)
-// minusc(nome_variavel)
-// pos("palavra_de_busca", nome_variavel)
+// compr(nome_variavel) mostra quantas letra tem em uma cadeia de caracteres
+// copia(nome_variavel, 6, 2) Mostra a letra em uma determinada posição na cadeia de caracteres
+// maiusc(nome_variavel) Coloca a cadeia de caracteres em letras maiúsculas
+// minusc(nome_variavel) Coloca a cadeia de caracteres em letras minúsculas
+// pos("palavra_de_busca", nome_variavel) Mostra se a palavra que digitou está na cadeia de caracteres da variável
 // asc("letra_específica")
 // carac("codigo_da_letra")
 
